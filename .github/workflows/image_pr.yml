@@ -41,4 +41,4 @@ jobs:
           push: true
           tags: tiwatsuka/kepler
           labels: ${{ github.event.inputs.commitSHA }}
-          file: build/Dockerfile.libbpf.kepler
+          file: build/Dockerfile
